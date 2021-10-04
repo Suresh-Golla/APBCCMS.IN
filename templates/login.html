@@ -1,0 +1,37 @@
+{% extends '1.html' %}
+{% block content %}
+<html>
+{% load static %}
+<head>
+<title>Registration page</title>
+<link rel="stylesheet" href="{% static 'stylesheets/sas.css' %}" />
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="formDiv">
+<form method="POST" action="" enctype="multipart/form-data">
+<h3>Candidte Login Form(Job Seeker)</h3>
+
+
+<input type="text" name="email" placeholder="example@gmail.com"required /><br/><br/>
+
+<input type="text" name="password" placeholder="password" required /><br/><br/>
+
+<input type="submit" value="login" /><br/><br/>
+
+<p>If you are not yet registered please... <a href="{% url 'Register' %}">  Sign Up</a> here !</p>
+
+
+
+
+
+</form>
+</div>
+</div>
+</body>
+</html>
+
+{% endblock %}

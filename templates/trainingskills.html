@@ -1,0 +1,35 @@
+
+{% extends '1.html' %}
+{% block content %}
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>welocme to training skills page</h1>
+<table border="1">
+    <tr align="center">
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Email</td>
+        <td>Mobile</td>
+        <td>Gender</td>
+        
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{i.firstname}}</td>
+        <td>{{i.lastname}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.mobile}}</td>
+        <td>{{i.gender}}</td>
+        
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
+{% endblock %}

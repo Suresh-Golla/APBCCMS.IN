@@ -1,0 +1,272 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.container{
+   
+    width:100%;
+
+}
+.wrapper{
+    width: auto;
+    margin: auto;
+}
+.dark{
+background-color: rgb(216, 46, 46);
+color: white;
+}
+.light{
+background-color: #e9edf2;
+}
+#top_div{
+    height:40px;
+    line-height:40px;
+}
+#logo_left{
+        display:inline-block;
+        margin-left: 25px;
+           }
+    #logo_left img{
+        margin-top:15px;
+        margin-bottom: 5px;
+        
+    }
+#logo_right{
+    float: right;
+    margin-top: 30px;
+    }
+
+    #textstyle{
+        height: 30px;
+        border-radius: 8px; 
+    }
+    #button{
+        background-color: green;
+        color: white;
+        padding: 7px;
+        border-radius: 7px;
+        width: 70px;
+        border: 1px solid green;
+    }
+
+    ul li{
+       
+        margin-left: 15px;
+        display:inline-block;
+        line-height: 35px;
+        height: 35px;
+        text-align: center;
+            }
+    ul li a{
+        color: white;
+        text-decoration:none;
+        display: block;
+        padding-left:5px;
+        padding-right: 5px;
+    }
+    ul li a:hover{
+        background-color: black;
+        color: white;
+    }
+         #bottom_div_right{
+            margin-top: 10px;
+            width: 300px;
+            float: right; 
+            padding:8px;   
+            margin-left:10px;
+            font-family: sans-serif;    
+        }
+        h1{
+            font-style: normal;
+            font-size: 20px;
+           color: black;
+                   }
+        #t{
+            margin-left: 5px;
+        }
+        p{ 
+            text-align: left;
+            margin-left:40px;
+            margin-bottom:px;
+            color: red;
+            padding-bottom:5px;
+           line-height:25px;
+        }
+        input[type="button1"]{
+            margin-left: 42px;
+            background-color: #14568C;
+            height: 35px;
+            width: 170px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius:8px;
+            color: white;
+          }
+         input[type="button1"]:hover{
+          background-color: yellow;
+          color:black;
+         }
+         
+input[type="button4"]{
+   
+    float: left;
+   
+    background:#66BB6A;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   input[type="button5"]{
+   
+    float: left;
+   
+    background:#42A5F5;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   input[type="button2"]{
+   
+    float: left;
+   
+    background:#FFCA28;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   input[type="button3"]{
+   
+    float: left;
+   
+    background:#F06292;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   input[type="button6"]{
+   
+    float: left;
+   
+    background:#00ACC1;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   input[type="button7"]{
+   
+    float: left;
+   
+    background:#376D9C;
+    margin-top: 10px;
+    margin-left:5%;
+    margin-right:5%;
+    height:80px;
+    width:40%;
+    text-align: center;
+    border-radius:6px;
+    color: white;
+    font-size:20px;
+   }
+   h2{
+       color: red;
+       float: left;
+      margin-left: 300px;
+      margin-right: 200px;
+      font-size: 25px;
+      margin-top: 20px;
+      font-family: sans-serif;
+   }
+   u{
+       margin-top: 35px;
+   }
+z{
+
+
+}
+
+       
+
+
+
+
+       
+  #logo{
+    margin-top: 380;
+  text-align: center;
+  background:#66BB6A;
+  height:50px;
+  width:auto;
+  border-radius:6px;
+  color: brown;
+  font-size:40px;
+     }
+     #logo u{
+         text-decoration: none;
+     }
+
+
+     #logo1{
+        margin-top: 10;
+      
+        
+      text-align: center;
+      background:white;
+      height:50px;
+      width:auto;
+      border-radius:6px;
+      color: brown;
+      font-size:40px;
+         }
+         #logo1 u{
+             text-decoration: none;
+             margin-left:200;
+             margin-right:150;
+         }
+             #logo1 img {
+                 margin:0;
+
+             }
+
+
+
+     #footer{
+      text-align:center;
+      color: aqua;
+      margin-top:0%;
+      position: relative;
+      height:auto;
+      width:auto;
+      background-color: yellow;
+      font-size:30px;
+   }

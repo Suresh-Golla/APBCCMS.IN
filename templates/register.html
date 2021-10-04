@@ -1,0 +1,39 @@
+{% extends '1.html' %}
+<html>
+{% block content %}
+{% load static %}
+<head>
+<title>Registration page</title>
+<link rel="stylesheet" href="{% static 'stylesheets/sas.css' %}" />
+</head>
+<body>
+<div id="wrapper">
+<div id="formDiv">
+<form method="POST" action="Register" enctype="multipart/form-data">
+    {% csrf_token %}
+<h3>Candidte Registration(Job Seeker)</h3>
+
+<input type="text" name="firstname" placeholder="First Name"required /><br/><br/>
+	
+<input type="text" name="lastname" placeholder="Last Name"required /><br/><br/>
+
+<input type="text" name="email" placeholder="E-mail address"required /><br/><br/>
+
+<input type="password" name="password" placeholder="password" required /><br/><br/>
+
+<input type="password" name="passwordconfirm"   placeholder="password(again)" required /><br/><br/>
+ 
+<input type="text" name="mobile"   placeholder="mobile number" required /><br/><br/>
+
+<input type="text" name="gender"   placeholder="gender" required /><br/><br/>
+
+
+<input type="submit" name="submit" ><br/><br/>
+
+<p>If you are registered already please <a href="{% url 'login' %}">Signin</a> here!</p>
+</form>
+</div>
+</div>
+</body>
+</html>
+{% endblock %}
